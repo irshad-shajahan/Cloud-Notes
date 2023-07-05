@@ -3,7 +3,7 @@ import bgImage from '../assets/bgimg.jpg';
 import { toast } from 'react-toastify';
 import noteimg from '../assets/note.avif';
 import { useNavigate } from 'react-router-dom';
-import { getdata, postForm } from '../Axios/api';
+import { getdata, postForm } from '../axios/apiCalls';
 
 function Home() {
     const navigate = useNavigate()

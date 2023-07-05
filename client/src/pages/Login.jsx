@@ -2,7 +2,7 @@
 import  { useState } from 'react';
 import {useNavigate} from 'react-router-dom'
 import { toast } from 'react-toastify';
-import { postForm } from '../Axios/api.js';
+import { postForm } from '../axios/apiCalls.js';
 
 const Login = () => {
   const navigate = useNavigate()
