@@ -5,7 +5,7 @@ import {
   validatePassword,
   isValidEmail,
 } from '../validations';
-import { postForm } from '../Axios/api';
+import { postForm } from '../axios/apiCalls';
 import { useNavigate } from 'react-router-dom';
 
 function Register() {
