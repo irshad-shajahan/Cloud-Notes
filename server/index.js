@@ -8,7 +8,12 @@ const dotenv = require("dotenv");
 //dotenv config
 dotenv.config();
 app.use(morgan("dev")); 
-app.use(cors());
+app.use(
+    cors({
+      origin: ["http://localhost:3000","https://cloud-notes-rho.vercel.app"],
+      credentials: true,
+    })
+  );
 app.use('/',router)
 const mongoose = require('mongoose')
 mongoose.connect(process.env.MONGO_URL,{dbName:'cloudnotes'}).then(() => {
