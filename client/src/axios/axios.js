@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = 'http://localhost:8080'
+const baseURL = 'https://cloud-notes-vim3.onrender.com'
 
 const axiosInstance=  axios.create({
     baseURL,

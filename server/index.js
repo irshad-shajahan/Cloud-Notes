@@ -10,7 +10,7 @@ dotenv.config();
 app.use(morgan("dev")); 
 app.use(
     cors({
-      origin: ["http://localhost:3000", "http://localhost:3001"],
+      origin: ["http://localhost:3000","https://cloud-notes-nokmrt99d-irshadshajahan020-gmailcom.vercel.app/"],
       credentials: true,
     })
   );
