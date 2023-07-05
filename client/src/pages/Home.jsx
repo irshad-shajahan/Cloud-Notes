@@ -75,6 +75,12 @@ function Home() {
                 }}
             >
                 <div className='w-1/5 pt-4 px-2 flex flex-col'>
+                    <div className='flex'>
+                    <h2 className='m-2 text-xl font-semibold font-serif'>Cloud Notes</h2>
+                    <p className='m-2 text-blue-900 text-3xl'>
+                    <ion-icon name="cloud-upload"></ion-icon>
+                    </p>
+                    </div>
                     <div className='border-black border p-1 justify-between px-5 flex hover:bg-blue-300 hover:bg-opacity-50' onClick={() => {
                         setNewNote('')
                         setNoteId(null)
